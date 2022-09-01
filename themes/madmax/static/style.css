@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  background: #110000;
+  color: #ccc;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  height: 80vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+header h1 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  clear: both;
+}
+
+/* For TAGLIST.HTML */
+.taglist {
+  text-align: center;
+  clear: both;
+}
