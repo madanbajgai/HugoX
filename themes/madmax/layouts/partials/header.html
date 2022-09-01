@@ -4,24 +4,23 @@
     <title>
       {{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}
     </title>
-    <link rel="canonical" href="{{ .Site.BaseURL }}" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="{{ .Site.Title }} RSS"
-      href="/index.xml"
-    />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="/style.css" />
     <link rel="manifest" href="manifest.json" />
-    <meta name="theme-color" content="#000" />
+    <meta name="theme-color" content="#000000" />
     <meta name="msapplication-navbutton-color" content="#000" />
     <meta name="author" content="Madan Bajgai" />
     <meta
       name="description"
       content="This is a simple blog app made with hugo."
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="{{ .Site.Title }} RSS"
+      href="/index.xml"
     />
 
     <meta
