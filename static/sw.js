@@ -1,6 +1,12 @@
 const OFFLINE_VERSION = 4;
 const CACHE_NAME = "offline";
-const assets = ["index.html", "fallback.html"];
+const assets = [
+  "/",
+  "manifest.json",
+  "/style.css",
+  "index.html",
+  "fallback.html",
+];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
